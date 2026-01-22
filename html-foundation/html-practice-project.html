@@ -1,0 +1,144 @@
+<h1>HTML Practice – Form</h1>
+
+<p>
+    This is a beginner HTML practice project.<br>
+    I am trying to recall all the basic HTML tags that I learned earlier.<br>
+    This page contains form, table, image, list, and input elements.
+</p>
+
+<hr>
+
+<h2>Vacation Task List</h2>
+<ol>
+    <li>Complete your Web Development course</li>
+    <li>Practice communication skills during holidays</li>
+    <li>Maintain good diet and focus on fitness</li>
+    <li>Improve drawing skills</li>
+</ol>
+
+<hr>
+
+<h2>Motivation Section</h2>
+
+<p>Watch this motivational podcast:</p>
+<a href="https://www.youtube.com/watch?v=Hq7a4qvYQqI" target="_blank">Open YouTube Video</a>
+<br><br>
+
+<!-- Image is optional but added for practice -->
+<img src="Motivational_image.jpg" 
+     alt="Imagine yourself as well settled" 
+     width="150" height="200">
+
+<br><br>
+
+<p>
+    Mathematical Formula (just for practice):<br>
+    a<sup>2</sup> + b<sup>2</sup> + 2ab = (a + b)<sup>2</sup>
+</p>
+
+<hr>
+
+<h2>Sample Student Data Table</h2>
+
+<table border="1">
+    <caption>Student Information</caption>
+    <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Height</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <td>Ramesh</td>
+        <td>166</td>
+        <td>5.2 ft</td>
+        <td>45 kg</td>
+    </tr>
+    <tr>
+        <td>Rishabh</td>
+        <td>162</td>
+        <td>5.4 ft</td>
+        <td>51 kg</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Registration Form</h2>
+
+<!-- Main registration form -->
+<form action="/action.php">
+
+    <label>
+        Username:<br>
+        <input type="text" placeholder="Enter username">
+    </label>
+    <br><br>
+
+    <label>
+        Phone Number:<br>
+        <input type="number" placeholder="Enter phone number">
+    </label>
+    <br><br>
+
+    <label>
+        Email:<br>
+        <input type="email" placeholder="Enter email address">
+    </label>
+    <br><br>
+
+    <label>
+        Time:<br>
+        <input type="time">
+    </label>
+    <br><br>
+
+    <label>
+        Date:<br>
+        <input type="date">
+    </label>
+    <br><br>
+
+    <label>
+        Upload File:<br>
+        <input type="file">
+    </label>
+    <br><br>
+
+    <label>
+        <input type="checkbox">
+        I agree to the terms and conditions
+    </label>
+
+    <br><br>
+
+    <p>Select one hobby:</p>
+
+    <!-- Radio buttons -->
+    <input type="radio" name="hobby" id="dance">
+    <label for="dance">Dance</label><br>
+
+    <input type="radio" name="hobby" id="painting">
+    <label for="painting">Painting</label><br>
+
+    <input type="radio" name="hobby" id="swimming">
+    <label for="swimming">Swimming</label><br>
+
+    <input type="radio" name="hobby" id="gym">
+    <label for="gym">Gym</label><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<hr>
+
+<h2>YouTube Search (Form Practice)</h2>
+
+<!-- Separate form because action is different -->
+<form action="https://www.youtube.com/results" target="_blank">
+    <input type="text" name="search_query" placeholder="Search on YouTube">
+    <button>Search</button>
+</form>
+
