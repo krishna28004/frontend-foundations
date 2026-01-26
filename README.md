@@ -14,7 +14,7 @@ The project focuses on learning and experimentation.
 - Lists and anchor links  
 - Images with alt attributes  
 - Tables with rows and columns  
-- HTML forms and input types  
+- HTML forms & input types  
 
 ## How to Run
 Open the `html-basics-practice.html` file in any modern web browser.
