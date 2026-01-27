@@ -26,3 +26,11 @@ let months = ["jan","feb","march","april"];
 console.log(months.pop())
 console.log(months.push("may"))
 console.log(months.unshift("Months: "));
+
+//sort - it sorts considering elements as string even with numbers
+console.log(months.sort());
+let nums = [768,876,987,100,65,87];
+console.log(nums.sort())
+
+//array reference
+[1]==[1]; //gives false because it comapares address of array 
