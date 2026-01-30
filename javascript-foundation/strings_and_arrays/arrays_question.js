@@ -41,3 +41,12 @@ let search = "is";
 for(let i=0;i<=sent.length;i++){
     
 }
+
+//find the largest number in an array (array should be of positive numbers)
+arr=[12,4,57,2,6,86,45];
+let greatest = 0
+for(let i=0;i<arr.length;i++){
+    if(arr[i]>greatest){
+        greatest = arr[i];
+    }
+}console.log(greatest);
