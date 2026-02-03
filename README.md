@@ -1,29 +1,81 @@
-# HTML Basics Practice Project
+# 🚀 Frontend Foundation
 
-## Overview
-This repository contains a beginner-level HTML practice file created to revise and apply core HTML concepts.  
-The project focuses on learning and experimentation.
+## 📌 Overview
+This repository documents my daily frontend development practice and learning journey.  
+It focuses on building strong fundamentals in HTML, CSS, and JavaScript before moving to advanced frameworks.
 
-## Purpose
-- Practice basic HTML syntax and structure  
-- Understand commonly used HTML elements  
-- Build a foundation before learning CSS and JavaScript  
+---
 
-## Concepts Covered
-- Headings and paragraphs  
-- Lists and anchor links  
-- Images with alt attributes  
-- Tables with rows and columns  
-- HTML forms & input types  
+## 🎯 Objective
 
-## How to Run
-Open the `html-basics-practice.html` file in any modern web browser.
+- Strengthen core frontend concepts  
+- Practice daily with hands-on coding  
+- Improve problem-solving skills using JavaScript  
+- Build consistency and coding discipline  
 
-## Technology Used
-HTML5  
+---
 
-## Note
-This is a practice project created for learning purposes only.
+## 📚 Technologies Covered
 
-## Author
-Krishna Kumar
+### ✅ HTML (Completed)
+- Semantic elements  
+- Forms & input types  
+- Tables  
+- Media elements  
+- Accessibility basics  
+
+### ✅ CSS (Uploading soon)
+- Box model  
+- Flexbox  
+- CSS Grid  
+- Positioning  
+- Responsive design  
+- Transitions & animations  
+
+### 🔄 JavaScript (In Progress)
+Currently learning:
+- Variables & Data Types  
+- Arrays & Strings  
+- Loops  
+- Functions  
+
+Upcoming topics:
+- DOM Manipulation  
+- Event Handling  
+- Local Storage  
+- Async JavaScript  
+- Fetch API  
+
+---
+
+## 📂 Repository Structure
+
+Each folder is organized by topic and contains:
+- Practice files  
+- Concept implementations  
+- Small exercises  
+
+---
+
+## 📈 Learning Approach
+
+- No copy-paste coding  
+- Manual implementation of concepts  
+- Focus on logic clarity  
+- Continuous improvement  
+
+---
+
+## 🚀 Next Goal
+
+Build real-world frontend projects using:
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## 👨‍💻 Author
+
+**Krishna Kumar**  
+B.Tech Computer Science Student
