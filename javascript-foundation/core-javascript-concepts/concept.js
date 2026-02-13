@@ -31,4 +31,37 @@ catch{
 const sum = (a,b) => { console.log(a+b) }
 sum(20,30);
 
+
+//setTimeOut(function, timeout) ==== timeout take time in milliseconds 1s=1000ms
+//timeout executes the func after given time
+console.log("Hii there!");
+setTimeout( ()=>{console.log("Welcome to javascript ")}, 1000);
+console.log("Krishna")
+
+//let id = setInterval(function, timeout)
+// this will execute function mulitple times as per the timeout until stopped 
+//clearInterval(id) ===== this command (on js web once passed) will stop the setinterval code
+ 
+
+//this with arrow function 
+// in Arrow === lexical scope 
+// in Function ==== calling object scope
+const stud = {
+    name: "aarav",
+    marks:95,
+    prop: this, //global scope
+    getName: function(){
+        console.log(this);
+        return  this.name
+    },
+    getMarks: () => {
+        console.log(this);
+        return this.marks; //parents scope -> window
+    },
+};
+stud.getName();
+stud.getMarks();
+
+
+
  
