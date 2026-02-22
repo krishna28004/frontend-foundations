@@ -33,14 +33,13 @@ It focuses on building strong fundamentals in HTML, CSS, and JavaScript before m
 - Transitions & animations  
 
 ### 🔄 JavaScript (In Progress)
-Currently learning:
 - Variables & Data Types  
 - Arrays & Strings  
 - Loops  
-- Functions  
+- Functions 
+- DOM Manipulation 
 
 Upcoming topics:
-- DOM Manipulation  
 - Event Handling  
 - Local Storage  
 - Async JavaScript  
